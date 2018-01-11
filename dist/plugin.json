@@ -1,0 +1,19 @@
+{
+  "type": "panel",
+  "name": "Up Down Stat",
+  "id": "smg-updownstat-panel",
+  "info": {
+    "description": "",
+    "author": {
+      "name": "Truong Chau Thy"
+    },
+    "keywords": ["arrow", "up", "down", "panel"],
+    "version": "1.0.0",
+    "updated": "2018-01-11"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "4.x.x",
+    "plugins": [ ]
+  }
+}
