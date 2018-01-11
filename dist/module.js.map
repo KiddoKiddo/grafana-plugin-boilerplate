@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/module.js"],"names":["UpDownStatCtrl"],"mappings":";;;;;;;;AAAQA,oB,oBAAAA,c;;;2BAGNA,c","file":"module.js","sourcesContent":["import {UpDownStatCtrl} from './updownstat_ctrl';\n\nexport {\n  UpDownStatCtrl as PanelCtrl\n};"]}

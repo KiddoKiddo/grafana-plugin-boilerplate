@@ -1,7 +1,9 @@
-import {PanelCtrl} from 'app/plugins/sdk';
+import { MetricsPanelCtrl } from 'app/plugins/sdk';
 import moment from 'moment';
 
-export class ClockCtrl extends PanelCtrl {
+import './css/style.css!';
+
+export class UpDownStatCtrl extends MetricsPanelCtrl {
   constructor($scope, $injector) {
     super($scope, $injector);
     this.updateClock();
@@ -13,4 +15,4 @@ export class ClockCtrl extends PanelCtrl {
   }
 }
 
-ClockCtrl.templateUrl = 'module.html';
+UpDownStatCtrl.templateUrl = 'module.html';

@@ -1,5 +1,5 @@
-import {ClockCtrl} from './clock_ctrl';
+import {UpDownStatCtrl} from './updownstat_ctrl';
 
 export {
-  ClockCtrl as PanelCtrl
+  UpDownStatCtrl as PanelCtrl
 };
